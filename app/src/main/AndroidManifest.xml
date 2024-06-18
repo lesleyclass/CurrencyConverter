@@ -18,6 +18,10 @@
             android:name=".services.CurrenciesService"
             android:enabled="true"
             android:exported="false" />
+        <service
+            android:name=".services.ConvertService"
+            android:enabled="true"
+            android:exported="false" />
         <activity
             android:name=".ui.MainActivity"
             android:exported="true">

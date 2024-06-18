@@ -63,4 +63,5 @@ class CurrenciesService : Service() {
         super.onDestroy()
         Log.v(serviceLogTag, "Service done.")
     }
+
 }
